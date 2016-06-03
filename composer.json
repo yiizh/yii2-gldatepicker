@@ -1,0 +1,31 @@
+{
+    "name": "yiizh/yii2-gldatepicker",
+    "description": "The glDatePicker extension for Yii2.",
+    "homepage": "https://github.com/yiizh/yii2-gldatepicker",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "glDatePicker"
+    ],
+    "authors": [
+        {
+            "name": "Di Zhang",
+            "email": "zhangdi_me@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiizh\\gldatepicker\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
